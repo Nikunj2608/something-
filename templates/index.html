@@ -1,0 +1,16 @@
+{% extends 'layouts/base.html' %}
+
+{% block main %}
+	Hello World
+
+<form method="post" enctype="multipart/form-data">
+	<div> 
+		<label for="name">UPLOAD YOUR FILE</label>
+		<input type="file" name="file" id="name" placeholder="Upload your file here"> 
+
+	</div >
+	<button type="submit"> Submit</button>
+</form >
+
+{{res}}
+{% endblock %}
